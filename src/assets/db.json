@@ -1,0 +1,198 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "devendhra",
+      "password": "devendhra",
+      "empid": "560102",
+      "mobile": "9845098450",
+      "department": "IT-Development",
+      "role": "Developer"
+    },
+    {
+      "id": "2",
+      "username": "admin",
+      "password": "admin",
+      "empid": "560102",
+      "mobile": "9845098450",
+      "department": "IT-Development",
+      "role": "admin"
+    },
+    {
+      "username": "suresh",
+      "password": "suresh",
+      "empid": "54232",
+      "mobile": "9845098450",
+      "department": "QA-Testing",
+      "role": "QA-Engineer",
+      "id": "HCTxHL7"
+    },
+    {
+      "username": "pradeep",
+      "password": "pradeep",
+      "empid": "pradeep@gmail.com",
+      "mobile": "9845098450",
+      "department": "QA-Testing",
+      "role": "Hadoop",
+      "id": "6n4okld"
+    }
+  ],
+  "deptGroups": [
+    {
+      "name": "IT",
+      "departments": [
+        {
+          "departmentId": "1",
+          "departmentName": "IT-Development"
+        },
+        {
+          "departmentId": "2",
+          "departmentName": "IT-Architect"
+        }
+      ]
+    },
+    {
+      "name": "QA",
+      "departments": [
+        {
+          "departmentId": "3",
+          "departmentName": "QA-Testing"
+        }
+      ]
+    },
+    {
+      "name": "Bussiness",
+      "departments": [
+        {
+          "departmentId": "4",
+          "departmentName": "Bussiness-Analyist"
+        },
+        {
+          "departmentId": "5",
+          "departmentName": "Bussiness-Man"
+        },
+        {
+          "departmentId": "6",
+          "departmentName": "Bussiness-Frontdesk"
+        },
+        {
+          "departmentId": "7",
+          "departmentName": "Bussiness-Frontdesk"
+        }
+      ]
+    }
+  ],
+  "roleGroups": [
+    {
+      "name": "IT",
+      "roles": [
+        {
+          "roleId": "1",
+          "roleName": "Developer"
+        },
+        {
+          "roleId": "2",
+          "roleName": "Hadoop"
+        }
+      ]
+    },
+    {
+      "name": "QA",
+      "roles": [
+        {
+          "roleId": "3",
+          "roleName": "QA-Analyis"
+        },
+        {
+          "roleId": "4",
+          "roleName": "QA-Engineer"
+        }
+      ]
+    },
+    {
+      "name": "AWS",
+      "roles": [
+        {
+          "roleId": "5",
+          "roleName": "AWS-Architect"
+        },
+        {
+          "roleId": "6",
+          "roleName": "AWS-Cloud Admin"
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "createdDate": "10-01-2012",
+      "empRole": "Developer",
+      "message": "worked on bug fix for new poc 1",
+      "createdBy": "devendhra"
+    },
+    {
+      "id": "2",
+      "createdDate": "09-01-2010",
+      "empRole": "Developer",
+      "message": "worked on bug fix for new poc 2",
+      "createdBy": "devendhra"
+    },
+    {
+      "id": "3",
+      "createdDate": "12-01-2012",
+      "empRole": "Developer",
+      "message": "worked on bug fix for new poc 3",
+      "createdBy": "devendhra"
+    },
+    {
+      "id": "4",
+      "createdDate": "01-01-2012",
+      "empRole": "QA",
+      "message": "worked on bug fix for new poc 4",
+      "createdBy": "devendhra"
+    },
+    {
+      "id": "5",
+      "createdDate": "1-01-2012",
+      "empRole": "Developer",
+      "message": "worked on bug fix for new poc 5",
+      "createdBy": "devendhra"
+    },
+    {
+      "id": "7",
+      "createdDate": "1-01-2012",
+      "empRole": "020543",
+      "message": "ddvv",
+      "createdBy": "Developer"
+    },
+    {
+      "createdDate": "1-01-2012",
+      "empRole": "Developer",
+      "message": "css",
+      "createdBy": "devendhar",
+      "id": "NhIq-5e"
+    },
+    {
+      "createdDate": "1-01-2012",
+      "empRole": "Developer",
+      "message": "test",
+      "createdBy": "devendhar",
+      "id": "ynXs4yO"
+    },
+    {
+      "createdDate": "1-01-2012",
+      "empRole": "Developer",
+      "message": "i am working expected work",
+      "createdBy": "devendhar",
+      "id": "EL5_Big"
+    },
+    {
+      "createdDate": "1-01-2012",
+      "empRole": "Developer",
+      "message": "today  i had meeting with client",
+      "createdBy": "devendhar",
+      "id": "z123Osl"
+    }
+  ]
+}

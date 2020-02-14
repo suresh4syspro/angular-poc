@@ -1,0 +1,51 @@
+<mat-card class="registration-card">
+    <mat-card-title>
+        <mat-toolbar>
+            <span>Registration</span>
+        </mat-toolbar>
+    </mat-card-title>
+    <mat-card-content>
+        <form class="registration-form" [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+            <mat-form-field class="full-width">
+                <mat-label>Username</mat-label>
+                <input matInput placeholder="Username" name="username" formControlName="username" required>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <mat-label>Password</mat-label>
+                <input matInput placeholder="Password"  type="password" formControlName="password" name="password">
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <mat-label>Emp Id</mat-label>
+                <input matInput placeholder="Employee Id" name="empid" formControlName="empid" required>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <mat-label>Mobile</mat-label>
+                <input matInput placeholder="Mobile Number" name="mobile" formControlName="mobile" required>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <mat-label>Department</mat-label>
+                <mat-select formControlName="department">
+                    <mat-optgroup *ngFor="let group of departmentGroups" [label]="group.name">
+                        <mat-option *ngFor="let dept of group.departments" [value]="dept.departmentName">{{dept.departmentName}}</mat-option>
+                    </mat-optgroup>
+                </mat-select>
+            </mat-form-field>
+            <mat-form-field class="full-width">
+                <mat-label>Role</mat-label>
+                <mat-select formControlName="role">
+                    <mat-optgroup *ngFor="let group of roleGroups" [label]="group.name">
+                        <mat-option *ngFor="let role of group.roles" [value]="role.roleName">{{role.roleName}}</mat-option>
+                    </mat-optgroup>
+                </mat-select>
+            </mat-form-field>
+            <button mat-raised-button color="primary">Submit</button>
+        </form>
+    </mat-card-content>
+    <mat-card-actions>
+    </mat-card-actions>
+
+    <mat-card-footer>
+        <mat-label>Already Registered Member?
+            <a href="/login">click here</a> to login</mat-label>
+    </mat-card-footer>
+</mat-card>

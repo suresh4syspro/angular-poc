@@ -1,0 +1,20 @@
+<mat-card class="tracking-card">
+    <mat-card-title>
+        <mat-toolbar>
+            <span>Employee Task Submitting/Recording</span>
+        </mat-toolbar>
+    </mat-card-title>
+    <mat-card-content>
+        <div class="title">
+            <span>Hi Dev Welcome, What's going on ?</span>
+        </div>
+        <form class="tracking-form" [formGroup]="taskTrackForm" (ngSubmit)="onSubmit()">
+            <mat-form-field class="full-width">
+                <textarea matInput placeholder="task"  formControlName="message" required  rows="15" cols="200"></textarea>
+            </mat-form-field>
+            <button mat-raised-button color="primary" type="submit">Submit</button>
+        </form>
+    </mat-card-content>
+    <mat-card-actions>
+    </mat-card-actions>
+</mat-card>
